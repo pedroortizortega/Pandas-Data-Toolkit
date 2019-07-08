@@ -7,7 +7,6 @@ This is a tool to operate dataframes, sometimes as a set other with usefull func
 import pandas as pd
 import numpy as np
 import glob
-from pandasDataTool import *
 #--------------------------------------------------------------------------------------
 def importFiles(FileInit, indexTagNAME=None):
     if ".csv" in FileInit:
